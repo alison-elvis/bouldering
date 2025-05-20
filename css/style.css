@@ -116,7 +116,7 @@ li:not(.primary-navigation ul li) {
     margin-block: 5px;
 }
 
-ul li:not(.primary-navigation ul li) {
+ul li:not(.primary-navigation ul li)::marker {
     content: "👉";
 }
 
