@@ -68,16 +68,10 @@ h3 {
     font-size: 1.75rem;
 }
 
-/* main {
-    max-width: 900px;
-    margin: auto;
-    padding: 20px;
-} */
-
 .two-column-layout {
     display: grid;
-    gap: 60px;
-    margin-block-end: 60px;
+    gap: 70px;
+    margin-block-end: 70px;
 
     @media (width > 720px) {
         grid-template-columns: 1fr 1fr;
@@ -85,7 +79,7 @@ h3 {
 }
 
 section {
-    margin-block: 100px;
+    margin-block: 70px;
 }
 
 .teal-text {
@@ -114,16 +108,15 @@ img {
     border: #0b4a5a solid 10px;
 }
 
-section ul,
-ol {
+li:not(.primary-navigation ul li) {
     color: black;
 }
 
-section li {
+li:not(.primary-navigation ul li) {
     margin-block: 5px;
 }
 
-section ul li::marker {
+ul li:not(.primary-navigation ul li) {
     content: "👉";
 }
 
